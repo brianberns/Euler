@@ -216,5 +216,5 @@ let testAll() =
 
 [<EntryPoint>]
 let main args =
-    printfn "%A" (testAll())
+    testAll()
     0
